@@ -23,10 +23,6 @@ After you're finished please remove all the comments and instructions!
 -->
 
 <div align="center">
-
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
   <h3><b>Math magicians react app</b></h3>
 
 </div>
@@ -75,21 +71,9 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - **[Components]**
 - **[Events]**
 - **[Refactor with hooks]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
-
-- [No live demo yet]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
