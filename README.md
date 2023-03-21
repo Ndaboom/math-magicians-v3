@@ -128,8 +128,8 @@ In order to run this project you need to install these prerequisites:
 Clone this repository to your desired folder:
 
 ```sh
-  git https://github.com/Ndaboom/math-magicians-v2.git
-  cd math-magicians-v2
+  git https://github.com/Ndaboom/math-magicians-v3.git
+  cd math-magicians-v3
 ```
 
 ### Install
