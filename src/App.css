@@ -5,6 +5,9 @@ body {
     sans-serif;
 }
 
+h1 {
+  color: #858694;
+}
 
 .main-container {
   width:80%;
