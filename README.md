@@ -55,7 +55,6 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Math magicians] <a name="about-project"></a>
 
-> About
 
 **[Math magicians]** is a react web app for all fans of mathematics. It allows users to: Make simple calculations. Read a random math-related quote.
 
