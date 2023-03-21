@@ -16,17 +16,19 @@ body {
   display: flex;
   flex-direction:column;
   width: 380px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .screen-container {
   text-align: end;
   background-color: #858694;
   color: #FFFFFF;
-  padding: 5px;
+  padding: 15px;
 }
 
 .orange {
-  background-color: orange;
+  background-color: #F5913E;
 }
 
 .gray-color {
@@ -37,11 +39,12 @@ body {
   display: grid;
   padding-top:0.1px;
   grid-template-columns: repeat(4,95px);
-  grid-template-rows: minmax(30px,auto) repeat(3,80px);
+  grid-template-rows: minmax(80px,auto) repeat(3,80px);
 }
 
 button {
   border-color: #858694;
+  border-width: 0.1px;
 } 
 
 .zero-btn {
