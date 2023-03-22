@@ -42,9 +42,9 @@ function Calculator(props) {
         <button onClick={clickHandler} className="orange" type="button">+</button>
       </div>
       <div className="sub-touch-pad">
-        <button className="gray-color zero-btn" type="button">0</button>
-        <button className="gray-color dot-btn" type="button">.</button>
-        <button className="orange equal-btn" type="button">=</button>
+        <button onClick={clickHandler} className="zero-btn" type="button">0</button>
+        <button onClick={clickHandler} className="dot-btn" type="button">.</button>
+        <button onClick={clickHandler} className="orange equal-btn" type="button">=</button>
       </div>
     </div>
   );
