@@ -5,7 +5,7 @@ import styles from './calculatorPage.module.css';
 function CalculatorPage() {
   return (
     <div className={styles.CalculatorPage}>
-      <h1>Lets do some math!</h1>
+      <h2>Lets do some math!</h2>
       <Calculator name="Calculator 1.0" />
     </div>
   );
