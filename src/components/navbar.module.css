@@ -1,0 +1,29 @@
+.navigation {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #24242c;
+  color: orange;
+  padding-left:15px
+}
+
+.navigationMenu {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+  width: 80%;
+  gap: 15px;
+  padding: 10px;
+  justify-content: right;
+  text-decoration: none;
+  color: black;
+}
+
+.navBarTitle {
+  padding: 10px;
+}
+
+.navItem {
+  color: white;
+  text-decoration: none;
+}
