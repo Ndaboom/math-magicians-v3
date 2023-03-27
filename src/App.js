@@ -1,14 +1,22 @@
+import React, { memo } from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import Calculator from './components/Calculator';
+import CalculatorPage from './components/CalculatorPage';
 import Quotes from './components/Quotes';
+import Navbar from './components/navbar';
+import Home from './components/home';
 
-function App() {
-  return (
-    <>
-      <Calculator name="Calculator 1.0" />
-      <Quotes />
-    </>
-  );
-}
-
+const App = memo(() => (
+  <React.StrictMode>
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/calculator" element={<CalculatorPage />} />
+        <Route path="/quote" element={<Quotes />} />
+      </Routes>
+    </BrowserRouter>
+  </React.StrictMode>
+));
+App.displayName = 'Math magicians';
 export default App;

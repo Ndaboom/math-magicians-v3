@@ -5,8 +5,8 @@ body {
     sans-serif;
 }
 
-h1 {
-  color: #858694;
+h1, h2 {
+  color: #F5913E;
 }
 
 .main-container {
@@ -63,12 +63,6 @@ button {
 .equal-btn {
   width: 95px;
   height: 65px;
-}
-
-.quotes-box {
-  width: 380px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 blockquote {
