@@ -31,7 +31,7 @@ function Navbar() {
             className={styles.navItem}
             aria-hidden="true"
           >
-            <NavLink to={link.path} activeClassName="active" exact>
+            <NavLink to={link.path} activeClassName="active" exact className={styles.navLink}>
               {link.text}
             </NavLink>
           </li>

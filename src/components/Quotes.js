@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import styles from './quotes.module.css';
 
 function Quotes() {
   const [quote, setQuote] = useState('');
@@ -41,7 +42,7 @@ function Quotes() {
   }
 
   return (
-    <div className="quotes-box">
+    <div className={styles.quotesBox}>
       <blockquote>
         { quote }
         <cite>

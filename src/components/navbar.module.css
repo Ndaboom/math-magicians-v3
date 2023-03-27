@@ -2,8 +2,8 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  background-color: #24242c;
-  color: orange;
+  background-color: #fefeff;
+  color: #F5913E;
   padding-left:15px
 }
 
@@ -26,4 +26,10 @@
 .navItem {
   color: white;
   text-decoration: none;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #F5913E;
+  font-weight: bold;
 }
